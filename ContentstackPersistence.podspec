@@ -15,7 +15,7 @@ s.source           = { :git => 'https://github.com/contentstack/contentstack-ios
 s.social_media_url = 'https://twitter.com/Contentstack'
 
 s.ios.deployment_target = '8.0'
-s.dependency 'Contentstack', '~> 3.4.0'
+s.dependency 'Contentstack', '~> 3.5.0'
 s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 s.source_files = 'ContentstackPersistence/*.{h,m}'
 s.public_header_files = 'ContentstackPersistence/*.{h}'
